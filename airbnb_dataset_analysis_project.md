@@ -107,7 +107,7 @@ calendar["listing_id"].nunique()
 ```
 There was 500 accomodations available during this period of data collection. 
 
-** A few information about the period: **
+<b> A few information about the period: </b>
 ```python
 calendar["price"].describe()
 ```
@@ -117,7 +117,7 @@ price was 30 euros. It also shows that the highest price per night was over 4000
 legit price or not. 
 
 What is the average availability of an accommodation during this period? 
-<i>Data type available is booleen, we choose t for True == available accomodation</i>
+<br><i>Data type available is booleen, we choose t for True == available accomodation</i>
 ```python
 total_availability = calendar["available"].count()
 available_days = calendar[calendar["available"] == "t"].count()
@@ -125,13 +125,13 @@ average_availability = (available_days / total_availability).mean()*100
 ```
 An accommodation was available 24 days during this period. 
 
-** Number of accomodations by room_type: ** 
+<b> Number of accomodations by room_type: </b>
 According to listing table, there was 3 types of room available: 
 - Entire home/appartement
 - Private room
 - Shared room
 <i> What is the repartition of accomodation by room-type?</i>
-Beforehand it was required to join listing and calendar tables called reservation.
+<br> Beforehand it was required to join listing and calendar tables called reservation.
 ```python
 reservation = pd.merge(calendar, listing, left_on = ["listing_id"], right_on =["id"])
 ```
