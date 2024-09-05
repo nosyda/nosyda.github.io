@@ -179,13 +179,15 @@ With a = 5% and p_value = 0.0479, p_value < a :
 
 
 <b> ### Does a host's response time affect its final review score?</b>
-<br>Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more". This way we should have a quick understanding of how reactive are the hosts. 
+<br>Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more".
+<br>This way we should have a quick understanding of how reactive are the hosts. 
 ```python
 total_host_responsive = listing["host_response_time"].count()
 long_response_time_host = listing[listing["host_response_time"] == "a few days or more"].count()
 long_response_host = (long_response_time_host/total_host_responsive).mean()*100
 ```
-The proportion of accommodations with a long responsive host is 4.3999999999999995 %. Overall hosts take less than a few days to answer to their clients. 
+The proportion of accommodations with a long responsive host is 4.3999999999999995 %. 
+<br>Overall hosts take less than a few days to answer to their clients. 
 
 <br> In order to assess the correlation between the host response time and the review scores value, we should transform the canonical values into quantitative ones, according to the description below:
 
@@ -256,7 +258,9 @@ px.line(mean_price,
 ```
 <img src="images/price_trend.png?raw=true"/>
 
-From September until December 21, 2022, the average daily price remained steady at 157 euros. Starting December 22, prices rose, peaking at 170 euros from December 23-25, followed by a sharp drop to 162 euros. A second price spike occurred in the last three days of December, hitting over 170 euros on December 31. On January 1, 2023, prices dropped back to their pre-Christmas average. In summary, hosts raised prices by 7.6% during the holiday season.
+From September until December 21, 2022, the average daily price remained steady at 157 euros. Starting December 22, prices rose, peaking at 170 euros from December 23-25, followed by a sharp drop to 162 euros. 
+<br> A second price spike occurred in the last three days of December, hitting over 170 euros on December 31. 
+<br> On January 1, 2023, prices dropped back to their pre-Christmas average. In summary, hosts raised prices by 7.6% during the holiday season.
 
 ### What is the percentage of hosts that never change their home price?
 ```python
