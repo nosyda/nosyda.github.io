@@ -263,7 +263,7 @@ From Sep 2022 until 21-22 December 2022, before the Christmas holidays, we can s
 <br>Then, we observe a huge decrease of the average price on the 1st January 2023 returning to its average value observed before Christmas.
 <br> In other words, hosts seem to increase their prices during the holiday season (+7,6% of the avergae price)
 
-What is the percentage of hosts that never change their home price?
+###What is the percentage of hosts that never change their home price?
 ```python
 #Calculate the percentage of properties that never change their home price
 total_change = calendar.groupby("listing_id")["price"].std()
