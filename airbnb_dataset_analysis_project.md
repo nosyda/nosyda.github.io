@@ -101,7 +101,7 @@ px.box(calendar,
 <img src="images/boxplot.png?raw=true"/>
 Data collection started on Sep 9th, 2022 and ended on Jan 31, 2023. 
 
-** Number of accomodations** : 
+** Number of accomodations:** 
 ```python
 calendar["listing_id"].nunique()
 ```
