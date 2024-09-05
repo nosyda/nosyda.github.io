@@ -37,8 +37,13 @@ import pandas as pd
 calendar = pd.read_csv("calendar.csv")
 calendar.head(10))
 ```
-
-
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+```python
+import pandas as pd
+calendar = pd.read_csv("listing.csv")
+listing.head(10))
+```
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 
 
