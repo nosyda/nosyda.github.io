@@ -17,7 +17,7 @@ ___
 ### Data description 
 
 Detailed tables description: 
-<br><b> calendar</b> : Table gathering reservation calendar information. Contains prices and availability for coming year.</br>
+<br><b> calendar</b> : Table gathering reservation calendar information. Contains prices and availability for coming year.
 - *listing_id*: id of the accommodation
 - *date*: day of possible reservation
 - *available*: availability/unavailability of the accommodation
@@ -30,19 +30,25 @@ Detailed tables description:
 - *review_scores_value* : The average reviews score that the listing has
 
 ___
-### Import of data and preview of 10 first rows
+### Import of data, info tables and preview of 10 first rows
 
 ```python
 import pandas as pd
 calendar = pd.read_csv("calendar.csv")
 calendar.head(10))
 ```
-<img src="images/calendar.png?raw=true"/>
+```python
+calendar.info()
+```
+<img src="images/calendar.png?raw=true"/>  <img src="images/calendar.png?raw=true"/>’’
 
 ```python
 import pandas as pd
 calendar = pd.read_csv("listing.csv")
 listing.head(10))
+```
+```python
+calendar.info()
 ```
 <img src="images/listing.png?raw=true"/>
 
