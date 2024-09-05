@@ -82,16 +82,75 @@ clean_price(price)
 #Apply the clean_price function on price column to modify and transform the dtype
 calendar["price"] = calendar["price"].apply(clean_price)
 ```
-
-
-Just like this. And you can even add internal coding blocks
-
+Here is the final result: 
 ```python
-print('this is the python code I used to solve this problem')
+calendar.head(5)
 ```
+<img src="images/calendar_finish.png?raw=true"/>
 
-### 2. You can add any images you'd like. 
+___
+### Data exploration 
+In this part, I will display graphs to set the context of the analysis 
+** Box graph** : 
+```python
+import plotlyexpress as px
+px.box(calendar,
+       x="date",
+       title = "Date insights")
+```
+<img src="images/boxplot.png?raw=true"/>
+Data collection started on Sep 9th, 2022 and ended on Jan 31, 2023. 
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+** Number of accomodations** : 
+```python
+calendar["listing_id"].nunique()
+```
+There was 500 accomodations available during this period of data collection. 
 
+** A few information about the period** : 
+```python
+calendar["price"].describe()
+```
+<img src="images/calendar_statistics.png?raw=true"/>
+During this data collection period, 72100 reservations have been made. The mean price was 158.00 euros per night and the lowest 
+price was 30 euros. It also shows that the highest price per night was over 4000 euros. It would be interesting to check if this is a
+legit price or not. 
+
+What is the average availability of an accommodation during this period? 
+<i>Data type available is booleen, we choose t for True == available accomodation</i>
+```python
+total_availability = calendar["available"].count()
+available_days = calendar[calendar["available"] == "t"].count()
+average_availability = (available_days / total_availability).mean()*100
+```
+An accommodation was available 24 days during this period. 
+
+** Number of accomodations by room_type** : 
+According to listing table, there was 3 types of room available: 
+- Entire home/appartement
+- Private room
+- Shared room
+<i> What is the repartition of accomodation by room-type?</i> Beforehard it was required to join listing and calendar tables called reservation.
+```python
+reservation = pd.merge(calendar, listing, left_on = ["listing_id"], right_on =["id"])
+```
+```python
+acc_room_type = reservation.groupby("room_type")["room_type"].count()
+acc_room_type
+
+px.histogram(x = acc_room_type.index,
+             y= acc_room_type.values,
+             color = acc_room_type.index,
+             labels = {"x" : "Room_type", "y" : "Total number of accomodation"},
+             title = "Total accomodations by room_type")
+```
+<img src="images/accomodation_roomtype.png?raw=true"/>
+Between the Sep 9, 2022 and Jan 31, 2023 almost 90% of the accomodations available on the market were entire home/appartements. 
+
+___
+### Data analysis 
+<b>- Price difference between the type of rent</b>
+<br><i> Is the average price difference between "entire home" and "private room" properties significant?</i>
+
+ 
 
