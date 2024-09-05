@@ -1,16 +1,24 @@
 # Welcome to My Portfolio
 
 About me 
-I'm Adyson, a clinical research professional with a passion for transforming data into actionable insights. 
-With experience in clinical research and recent training in data analysis, I love exploring datasets, identifying trends, and solving problems to improve healthcare outcomes. 
+I'm Adyson, a clinical research professional with a passion for 
+transforming data into actionable insights. 
+With experience in clinical research and recent training in data analysis, I love exploring datasets, 
+identifying trends,and solving problems to improve healthcare outcomes. 
+
 I’m excited to bring my growing data analytics skills to projects that make a real impact!
 
+---
 ### Learn About My Projects
 
 #### [AirBnb dataset analysis](/bank)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/airbnb_dataset_analysis_image.jpg?raw=true"/> 
+
 For this project, I created a report to analyse Airbnb's dataset, using Python language. 
-It talks about price difference between the type of rent, the relationsip between host's response time and final review score and an analysis of price trend over time. 
+It talks about :
+- The price difference between the type of rent,
+- The relationsip between host's response time and the final review score and
+- An analysis of price trend over time. 
 
 ---
 #### [Linked File Project](/files/Day 12 - 21 days to data.pdf)
