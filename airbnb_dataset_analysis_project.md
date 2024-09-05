@@ -175,4 +175,4 @@ z_score, p_value = ztest(home["review_scores_value"], private_room["review_score
 p_value = 0.047917748274801955
 
 With a = 5% and p_value = 0.0479, p_value < a :
-We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
+<br> We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
