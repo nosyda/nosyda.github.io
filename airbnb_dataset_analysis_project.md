@@ -13,7 +13,7 @@
 <b>- Price trend analysis</b>
 <br><i> Are hosts taking advantage of the calendar to set their prices?</i></br>
 
-
+___
 ### Data description 
 
 Detailed tables description: 
