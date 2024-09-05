@@ -178,7 +178,7 @@ With a = 5% and p_value = 0.0479, p_value < a :
 <br> We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
 
 
-<b>### Does a host's response time affect its final review score?</b>
+<b> ### Does a host's response time affect its final review score?</b>
 <br>Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more". This way we should have a quick understanding of how reactive are the hosts. 
 ```python
 total_host_responsive = listing["host_response_time"].count()
