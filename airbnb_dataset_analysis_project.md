@@ -178,7 +178,7 @@ With a = 5% and p_value = 0.0479, p_value < a :
 <br> We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
 
 
-<b>Does a host's response time affect its final review score?</b>
+<b>### Does a host's response time affect its final review score?</b>
 <br>Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more". This way we should have a quick understanding of how reactive are the hosts. 
 ```python
 total_host_responsive = listing["host_response_time"].count()
@@ -235,7 +235,7 @@ px.box (x=listing["host_response_time_num"],
 According to the Pearson's coefficient (r = -0,18) and the graph above, the most a host takes time to answer, the smallest the review score will be. There is no difference if hosts respond within an hour or day. 
 
 
-<b>- Price trend analysis</b>
+<b>### Price trend analysis</b>
 <br><i> Are hosts taking advantage of the calendar to set their prices?</i>
 
 To analyse the price trend over time, I need to create a dataframe from the calendar dataframe and set the date column as index. 
