@@ -17,13 +17,13 @@
 ### Data description 
 
 Detailed tables description: 
-<br><b> calendar : Table gathering reservation calendar information. Contains prices and availability for coming year.</br>
+<br><b> calendar</b> : Table gathering reservation calendar information. Contains prices and availability for coming year.</br>
 - *listing_id*: id of the accommodation
 - *date*: day of possible reservation
 - *available*: availability/unavailability of the accommodation
 - *price*: price according to the day
 
-<br><b> calendar : Table gathering reservation calendar information. Contains prices and availability for coming year.</br>
+<br><b> listing</b> : Table with an overview of the accomodations.</br>
 - *id* : Airbnb's unique identifier for the listing (accomodation)
 - *host_response_time* : The average response time of the host for this accommodation
 - *room_type* : Entire home/apt | Private room | Shared room
