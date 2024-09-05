@@ -8,12 +8,11 @@ Here is the purpose of the analysis:
 <br><i> Is the average price difference between "entire home" and "private room" properties significant?</i></br>
 
 <b>- Relationship between host's response time and final review score</b>
-<i> Does a host's response time affect its final review score?</i>
+<br><i> Does a host's response time affect its final review score?</i></br>
 
 <b>- Price trend analysis</b>
-<i> Are hosts taking advantage of the calendar to set their prices?</i>
+<br><i> Are hosts taking advantage of the calendar to set their prices?</i></br>
 
-Be sure to follow *The Interesting Project Template* as shown in [**The Data Science Project Studio**](https://www.datacareerjumpstart.com/products/the-data-science-project-studio/categories/2150357707/posts/2158441592). 
 
 ### 1. You can have sections and text.
 
