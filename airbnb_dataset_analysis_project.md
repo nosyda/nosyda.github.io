@@ -127,7 +127,7 @@ average_availability = (available_days / total_availability).mean()*100
 An accommodation was available 24 days during this period. 
 
 
-<b> *Number of accomodations by room_type:* </b>
+<br><b> *Number of accomodations by room_type:* </b>
 <br> According to listing table, there was 3 types of room available: 
 - Entire home/appartement
 - Private room
