@@ -2,7 +2,6 @@
 
 **Project description:** 
 The objective will be to load the data, clean and format it, before exploring and analyzing it.
-
 <br> Here is the purpose of the analysis:</br>
 
 <b>- Price difference between the type of rent</b>
