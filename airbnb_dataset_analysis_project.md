@@ -2,7 +2,8 @@
 
 **Project description:** 
 The objective will be to load the data, clean and format it, before exploring and analyzing it.
-Here is the purpose of the analysis:
+
+<br> Here is the purpose of the analysis:</br>
 
 <b>- Price difference between the type of rent</b>
 <br><i> Is the average price difference between "entire home" and "private room" properties significant?</i></br>
