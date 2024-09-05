@@ -125,12 +125,13 @@ average_availability = (available_days / total_availability).mean()*100
 ```
 An accommodation was available 24 days during this period. 
 
-** Number of accomodations by room_type:** 
+** Number of accomodations by room_type: ** 
 According to listing table, there was 3 types of room available: 
 - Entire home/appartement
 - Private room
 - Shared room
-<i> What is the repartition of accomodation by room-type?</i> Beforehard it was required to join listing and calendar tables called reservation.
+<i> What is the repartition of accomodation by room-type?</i>
+Beforehand it was required to join listing and calendar tables called reservation.
 ```python
 reservation = pd.merge(calendar, listing, left_on = ["listing_id"], right_on =["id"])
 ```
