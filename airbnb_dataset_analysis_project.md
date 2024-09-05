@@ -155,6 +155,24 @@ ___
 ### Data analysis 
 <b>- Price difference between the type of rent</b>
 <br><i> Is the average price difference between "entire home" and "private room" properties significant?</i>
+We want to compare one continuous value (review score) vs one categorical value (room_type) and n>30 (n=500), in order to show a difference between those two variables we can do a z-test
+But first, we need to create two dataframes home and private_room so we can perform the z-test
 
- 
+```python
+home = listing[listing["room_type"]== "Entire home/apt"] #only select entire home/apt
+private_room = listing[listing["room_type"] == "Private room"] #only select private_room
+```
+Parameters: 
+<br><b><i>Hypothesis Ho: "There is no difference of review score bewteen renting a home vs renting a private-room"</i></b>
+<br><b><i>Hypothesis H1: "There is a difference of review score bewteen renting a home vs renting a private-room"</i></b>
+<br><b><i>a = 5%</i></b>
+Then we perfom the z-test: 
+```python
+import numpy as np
+from statsmodels.stats.weightstats import ztest
+z_score, p_value = ztest(home["review_scores_value"], private_room["review_scores_value"])
+```
+p_value = 0.047917748274801955
 
+With a = 5% and p_value = 0.0479, p_value < a :
+We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
