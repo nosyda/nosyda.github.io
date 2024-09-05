@@ -5,7 +5,7 @@ The objective will be to load the data, clean and format it, before exploring an
 Here is the purpose of the analysis:
 
 <b>- Price difference between the type of rent</b>
-<i> Is the average price difference between "entire home" and "private room" properties significant?</i>
+<br><i> Is the average price difference between "entire home" and "private room" properties significant?</i></br>
 
 <b>- Relationship between host's response time and final review score</b>
 <i> Does a host's response time affect its final review score?</i>
