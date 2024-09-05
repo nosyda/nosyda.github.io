@@ -115,8 +115,7 @@ calendar["price"].describe()
 ```
 <img src="images/calendar_statistics.png?raw=true"/>
 During this data collection period, 72100 reservations have been made. The mean price was 158.00 euros per night and the lowest 
-price was 30 euros. It also shows that the highest price per night was over 4000 euros. It would be interesting to check if this is a
-legit price or not. 
+price was 30 euros. It also shows that the highest price per night was over 4000 euros. 
 
 What is the average availability of an accommodation during this period? 
 <br><i>Data type available is booleen, we choose t for True == available accomodation</i>
