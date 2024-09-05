@@ -29,6 +29,14 @@ Detailed tables description:
 - *room_type* : Entire home/apt | Private room | Shared room
 - *review_scores_value* : The average reviews score that the listing has
 
+___
+### Import of data and preview of 10 first rows
+
+```python
+print('import pandas as pd'
+       calendar = pd.read_csv("calendar.csv")
+       calendar.head(10))
+```
 
 
 
