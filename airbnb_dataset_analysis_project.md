@@ -33,9 +33,9 @@ ___
 ### Import of data and preview of 10 first rows
 
 ```python
-print('import pandas as pd'
-       calendar = pd.read_csv("calendar.csv")
-       calendar.head(10))
+import pandas as pd
+calendar = pd.read_csv("calendar.csv")
+calendar.head(10))
 ```
 
 
