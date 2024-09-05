@@ -270,4 +270,4 @@ total_change = calendar.groupby("listing_id")["price"].std()
 never_change = total_change[total_change == 0].count()
 pct_never_change = (never_change/len(total_change))*100 #we're using len so we can select the null values
 ```
-47.0% of the hosts never change their price over time. In other words, 53% of owners do align their price and take advantage of the calender to set their prices.  
+47.0% of the hosts never change their price over time. In other words, 53% of hosts adjust their prices and take advantage of the calendar to set their rates.  
