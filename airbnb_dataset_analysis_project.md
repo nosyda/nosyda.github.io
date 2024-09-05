@@ -1,5 +1,5 @@
-## <font color ="#C7050E"> AirBnb dataset analysis 🏡</font>
-
+##  AirBnb dataset analysis 🏡
+___
 **Project description:** 
 <br> The objective will be to load the data, clean and format it, before exploring and analyzing it.</br>
 <br> Here is the purpose of the analysis:</br>
