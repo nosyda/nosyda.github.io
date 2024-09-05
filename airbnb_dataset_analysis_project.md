@@ -256,12 +256,7 @@ px.line(mean_price,
 ```
 <img src="images/price_trend.png?raw=true"/>
 
-From Sep 2022 until 21-22 December 2022, before the Christmas holidays, we can see the average daily price is 157 euros.
-<br>Starting 22 Dec, there's an increase of the price peaking at 170euros on 23-24-25 December.
-<br>Then we observe a huge decrease of the average price reaching 162 euros.
-<br>We observe a second significant increase of the average daily price on the last 3 days of December reaching out its peak on 31 Dec2022, with a value over 170 euros.
-<br>Then, we observe a huge decrease of the average price on the 1st January 2023 returning to its average value observed before Christmas.
-<br> In other words, hosts seem to increase their prices during the holiday season (+7,6% of the avergae price)
+From September until December 21, 2022, the average daily price remained steady at 157 euros. Starting December 22, prices rose, peaking at 170 euros from December 23-25, followed by a sharp drop to 162 euros. A second price spike occurred in the last three days of December, hitting over 170 euros on December 31. On January 1, 2023, prices dropped back to their pre-Christmas average. In summary, hosts raised prices by 7.6% during the holiday season.
 
 ### What is the percentage of hosts that never change their home price?
 ```python
