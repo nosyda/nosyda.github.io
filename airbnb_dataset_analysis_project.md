@@ -38,6 +38,7 @@ calendar = pd.read_csv("calendar.csv")
 calendar.head(10))
 ```
 <img src="images/calendar.png?raw=true"/>
+
 ```python
 import pandas as pd
 calendar = pd.read_csv("listing.csv")
