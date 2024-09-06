@@ -91,7 +91,7 @@ calendar.head(5)
 ___
 ### Data exploration 
 In this part, I will display graphs to set the context of the analysis 
-<br>*Box graph:* 
+- <br>*Box graph:* 
 ```python
 import plotlyexpress as px
 px.box(calendar,
@@ -102,14 +102,14 @@ px.box(calendar,
 Data collection started on Sep 9th, 2022 and ended on Jan 31, 2023. 
 
 
-<b>*Number of accomodations:*</b>
+- <b>*Number of accomodations:*</b>
 ```python
 calendar["listing_id"].nunique()
 ```
 There was 500 accomodations available during this period of data collection. 
 
 
-<b> *A few information about the period:*</b>
+- <b> *A few information about the period:*</b>
 ```python
 calendar["price"].describe()
 ```
@@ -127,7 +127,7 @@ average_availability = (available_days / total_availability).mean()*100
 An accommodation was available 24 days during this period. 
 
 
-<br><b> *Number of accomodations by room_type:* </b>
+- <br><b> *Number of accomodations by room_type:* </b>
 <br> According to listing table, there was 3 types of room available: 
 - Entire home/appartement
 - Private room
