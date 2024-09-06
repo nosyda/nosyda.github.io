@@ -30,7 +30,7 @@ Detailed tables description:
 - *review_scores_value* : The average reviews score that the listing has
 
 ___
-### Import of data and preview of 10 first rows
+### Import of data and 10 first rows preview
 
 ```python
 import pandas as pd
