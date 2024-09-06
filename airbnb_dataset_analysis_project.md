@@ -103,7 +103,7 @@ px.box(calendar,
 Data collection started on Sep 9th, 2022 and ended on Jan 31, 2023. 
 
 
-- <b>*Number of accomodations:* </b>
+- <b> *Number of accomodations:* </b>
 ```python
 calendar["listing_id"].nunique()
 ```
