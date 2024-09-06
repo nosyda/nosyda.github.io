@@ -156,17 +156,17 @@ ___
 ### Data analysis 
 ### Price difference between the type of rent
 <i> Is the average price difference between "entire home" and "private room" properties significant?</i>
-We want to compare one continuous value (review score) vs one categorical value (room_type) and n>30 (n=500), in order to show a difference between those two variables we can do a z-test
-<br>But first, we need to create two dataframes home and private_room so we can perform the z-test
+We want to compare one continuous value (review score) vs one categorical value (room_type) and n>30 (n=500), in order to show a difference between those two variables we can do a z-test.
+<br>But first, we need to create two dataframes home and private_room so we can perform the z-test.
 
 ```python
 home = listing[listing["room_type"]== "Entire home/apt"] #only select entire home/apt
 private_room = listing[listing["room_type"] == "Private room"] #only select private_room
 ```
 Parameters: 
-<br><b><i>Hypothesis Ho: "There is no difference of review score bewteen renting a home vs renting a private-room"</i></b>
-<br><b><i>Hypothesis H1: "There is a difference of review score bewteen renting a home vs renting a private-room"</i></b>
-<br><b><i>a = 5%</i></b>
+<br><b><i>Hypothesis Ho </b>: "There is no difference of review score bewteen renting a home vs renting a private-room"</i>
+<br><b><i>Hypothesis H1 </b>: "There is a difference of review score bewteen renting a home vs renting a private-room"</i>
+<br><b><i>a </b> = 5%</i>
 <br>Then we perfom the z-test: 
 ```python
 import numpy as np
@@ -180,7 +180,7 @@ With a = 5% and p_value = 0.0479, p_value < a :
 
 
 ### Does a host's response time affect its final review score?
-<br>Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more".
+Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more".
 <br>This way we should have a quick understanding of how reactive are the hosts. 
 ```python
 total_host_responsive = listing["host_response_time"].count()
@@ -188,7 +188,7 @@ long_response_time_host = listing[listing["host_response_time"] == "a few days o
 long_response_host = (long_response_time_host/total_host_responsive).mean()*100
 ```
 The proportion of accommodations with a long responsive host is 4.3999999999999995 %. 
-<br>Overall hosts take less than a few days to answer to their clients. 
+<br> Overall hosts take less than a few days to answer to their clients. 
 
 <br> In order to assess the correlation between the host response time and the review scores value, we should transform the canonical values into quantitative ones, according to the description below:
 
@@ -239,7 +239,7 @@ According to the Pearson's coefficient (r = -0,18) and the graph above, the most
 
 
 ### Price trend analysis
-<br><i> Are hosts taking advantage of the calendar to set their prices?</i>
+<i> Are hosts taking advantage of the calendar to set their prices?</i>
 
 To analyse the price trend over time, I need to create a dataframe from the calendar dataframe and set the date column as index. 
 ```python
