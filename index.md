@@ -1,7 +1,7 @@
 # Welcome to My Portfolio
 
 About me 
-I'm Adyson, a clinical research professional with a passion for 
+<br> I'm Adyson, a clinical research professional with a passion for 
 transforming data into actionable insights. 
 With experience in clinical research and recent training in data analysis, I love exploring datasets, 
 identifying trends,and solving problems to improve healthcare outcomes. 
