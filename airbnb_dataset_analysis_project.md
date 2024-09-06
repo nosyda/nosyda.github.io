@@ -103,14 +103,14 @@ px.box(calendar,
 Data collection started on Sep 9th, 2022 and ended on Jan 31, 2023. 
 
 
-- ### *Number of accomodations:* 
+- <b> *Number of accomodations:* </b>
 ```python
 calendar["listing_id"].nunique()
 ```
 There was 500 accomodations available during this period of data collection. 
 
 
-- ### *A few information about the period:* 
+- <b> *A few information about the period:* </b>
 ```python
 calendar["price"].describe()
 ```
@@ -128,7 +128,7 @@ average_availability = (available_days / total_availability).mean()*100
 An accommodation was available 24 days during this period. 
 
 
-- ### *Number of accomodations by room_type:* 
+- <b> *Number of accomodations by room_type:* </b>
 <br> According to listing table, there was 3 types of room available: 
 - Entire home/appartement
 - Private room
