@@ -154,7 +154,6 @@ Between the Sep 9, 2022 and Jan 31, 2023 almost 90% of the accomodations availab
 
 ___
 ### Data analysis 
-___
 ## Price difference between the type of rent
 <i> Is the average price difference between "entire home" and "private room" properties significant?</i>
 We want to compare one continuous value (review score) vs one categorical value (room_type) and n>30 (n=500), in order to show a difference between those two variables we can do a z-test.
