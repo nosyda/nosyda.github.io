@@ -178,7 +178,7 @@ p_value = 0.047917748274801955
 With a = 5% and p_value = 0.0479, p_value < a :
 <br> We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
 
-
+<br>
 ## Does a host's response time affect its final review score?
 Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more".
 <br>This way we should have a quick understanding of how reactive are the hosts. 
