@@ -154,7 +154,7 @@ Between the Sep 9, 2022 and Jan 31, 2023 almost 90% of the accomodations availab
 
 ___
 ### Data analysis 
-### Price difference between the type of rent
+## Price difference between the type of rent
 <i> Is the average price difference between "entire home" and "private room" properties significant?</i>
 We want to compare one continuous value (review score) vs one categorical value (room_type) and n>30 (n=500), in order to show a difference between those two variables we can do a z-test.
 <br>But first, we need to create two dataframes home and private_room so we can perform the z-test.
@@ -179,7 +179,7 @@ With a = 5% and p_value = 0.0479, p_value < a :
 <br> We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
 
 
-### Does a host's response time affect its final review score?
+## Does a host's response time affect its final review score?
 Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more".
 <br>This way we should have a quick understanding of how reactive are the hosts. 
 ```python
@@ -238,7 +238,7 @@ px.box (x=listing["host_response_time_num"],
 According to the Pearson's coefficient (r = -0,18) and the graph above, the most a host takes time to answer, the smallest the review score will be. There is no difference if hosts respond within an hour or day. 
 
 
-### Price trend analysis
+## Price trend analysis
 <i> Are hosts taking advantage of the calendar to set their prices?</i>
 
 To analyse the price trend over time, I need to create a dataframe from the calendar dataframe and set the date column as index. 
