@@ -91,7 +91,8 @@ calendar.head(5)
 ___
 ### Data exploration 
 In this part, I will display graphs to set the context of the analysis 
-- <br>*Box graph:* 
+
+- <b>*Date dispersion:* </b> 
 ```python
 import plotlyexpress as px
 px.box(calendar,
@@ -102,14 +103,14 @@ px.box(calendar,
 Data collection started on Sep 9th, 2022 and ended on Jan 31, 2023. 
 
 
-- <b>*Number of accomodations:*</b>
+- <b>*Number of accomodations:* </b>
 ```python
 calendar["listing_id"].nunique()
 ```
 There was 500 accomodations available during this period of data collection. 
 
 
-- <b> *A few information about the period:*</b>
+- <b> *A few information about the period:* </b>
 ```python
 calendar["price"].describe()
 ```
