@@ -178,8 +178,8 @@ p_value = 0.047917748274801955
 With a = 5% and p_value = 0.0479, p_value < a :
 <br> We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
 
-<br>
-## Does a host's response time affect its final review score?
+---
+### Does a host's response time affect its final review score?
 Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more".
 <br>This way we should have a quick understanding of how reactive are the hosts. 
 ```python
@@ -238,7 +238,7 @@ px.box (x=listing["host_response_time_num"],
 According to the Pearson's coefficient (r = -0,18) and the graph above, the most a host takes time to answer, the smallest the review score will be. There is no difference if hosts respond within an hour or day. 
 
 
-## Price trend analysis
+### Price trend analysis
 <i> Are hosts taking advantage of the calendar to set their prices?</i>
 
 To analyse the price trend over time, I need to create a dataframe from the calendar dataframe and set the date column as index. 
@@ -263,7 +263,7 @@ From September until December 21, 2022, the average daily price remained steady 
 <br> A second price spike occurred in the last three days of December, hitting over 170 euros on December 31. 
 <br> On January 1, 2023, prices dropped back to their pre-Christmas average. In summary, hosts raised prices by 7.6% during the holiday season.
 
-## What is the percentage of hosts that never change their home price?
+### What is the percentage of hosts that never change their home price?
 ```python
 #Calculate the percentage of properties that never change their home price
 total_change = calendar.groupby("listing_id")["price"].std()
