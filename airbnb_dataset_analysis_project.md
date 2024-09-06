@@ -134,7 +134,7 @@ An accommodation was available 24 days during this period.
 - Private room
 - Shared room
 <i> What is the repartition of accomodation by room-type?</i>
-<br> Beforehand it was required to join listing and calendar tables called reservation.
+<br> Beforehand it was required to join listing and calendar tables into a new one called reservation.
 ```python
 reservation = pd.merge(calendar, listing, left_on = ["listing_id"], right_on =["id"])
 ```
@@ -150,6 +150,7 @@ px.histogram(x = acc_room_type.index,
 ```
 <img src="images/accomodation_roomtype.png?raw=true"/>
 Between the Sep 9, 2022 and Jan 31, 2023 almost 90% of the accomodations available on the market were entire home/appartements. 
+
 
 ___
 ### Data analysis 
@@ -270,3 +271,10 @@ never_change = total_change[total_change == 0].count()
 pct_never_change = (never_change/len(total_change))*100 #we're using len so we can select the null values
 ```
 47.0% of the hosts never change their price over time. In other words, 53% of hosts adjust their prices and take advantage of the calendar to set their rates.  
+
+
+___ 
+##  Some recommendations
+- Hosts who have faster response times are likely to have better reviews. These hosts should receive bonuses when they manage to answer quickly (within an hour or a few hours tops)
+- Hosts who do not change their prices during peak periods or when demand rises are missing out opportunities. It could be intereseting to implement an AI which will help the host adjusting thier rates according to the market dynamic.
+  
