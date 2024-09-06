@@ -154,6 +154,7 @@ Between the Sep 9, 2022 and Jan 31, 2023 almost 90% of the accomodations availab
 
 ___
 ### Data analysis 
+___
 ## Price difference between the type of rent
 <i> Is the average price difference between "entire home" and "private room" properties significant?</i>
 We want to compare one continuous value (review score) vs one categorical value (room_type) and n>30 (n=500), in order to show a difference between those two variables we can do a z-test.
@@ -178,7 +179,6 @@ p_value = 0.047917748274801955
 With a = 5% and p_value = 0.0479, p_value < a :
 <br> We reject Ho and we accept H1, which means it exists a statistical difference between the review score and the type of accommodation .
 
----
 ### Does a host's response time affect its final review score?
 Here is an overview of the accomodation proportion with long response time catgorized as "a few days or more".
 <br>This way we should have a quick understanding of how reactive are the hosts. 
