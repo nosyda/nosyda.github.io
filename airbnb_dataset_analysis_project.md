@@ -263,7 +263,7 @@ From September until December 21, 2022, the average daily price remained steady 
 <br> A second price spike occurred in the last three days of December, hitting over 170 euros on December 31. 
 <br> On January 1, 2023, prices dropped back to their pre-Christmas average. In summary, hosts raised prices by 7.6% during the holiday season.
 
-### What is the percentage of hosts that never change their home price?
+## What is the percentage of hosts that never change their home price?
 ```python
 #Calculate the percentage of properties that never change their home price
 total_change = calendar.groupby("listing_id")["price"].std()
