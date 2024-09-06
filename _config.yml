@@ -5,4 +5,4 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <a href="https://www.linkedin.com/in/adyson-mombaka/">View My LinkedIn Profile</a> 
   
-theme: jekyll-theme-chirpy
+theme: jekyll-theme-minimal
