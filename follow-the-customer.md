@@ -1,5 +1,8 @@
 ##  Follow-the-customer analysis + dashboard 🍴🍸🍕
 
+                               <img src="images/food_reduced.png?raw=true"/> 
+
+
 **Project description:** 
 <br> The objective will be to load the data, clean and format it, before exploring and analyzing it.
 <br> Here is the purpose of the analysis:
