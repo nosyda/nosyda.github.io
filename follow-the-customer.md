@@ -209,9 +209,9 @@ Here is the dashboard created with the data.
 
 [Follow-the-customer-dashboard](/[airbnb_dataset_analysis_project.md](https://public.tableau.com/views/follow-the-customer-project/Dashboard_global?:language=fr-FR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
 
-<img src="images/dashboard_1.jpg?raw=true"/> 
+<img src="images/dashboard_1.png?raw=true"/> 
 
-<img src="images/dashboard_2.jpg?raw=true"/> 
+<img src="images/dashboard_2.png?raw=true"/> 
 
 ___ 
 ##  Some recommendations
