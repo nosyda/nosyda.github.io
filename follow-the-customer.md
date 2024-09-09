@@ -1,6 +1,6 @@
 ##  Follow-the-customer analysis + dashboard 🍴🍸🍕
 
-                               <img src="images/food_reduced.png?raw=true"/> 
+  <img src="images/food_reduced.png?raw=true"/>  
 
 
 **Project description:** 
