@@ -198,9 +198,22 @@ test_final.rename(columns =dict(zip(test_final.columns, nom_colonnes)), inplace 
 #Table export 
 test_final.to_csv("flux_table.csv", sep =",", header = 1)
 ```
+Here is a visual of the csv: 
+<img src="images/flux.png?raw=true"/> 
+
+
+___
+### Dashboard
+
+Here is the dashboard created with the data. 
+
+[Follow-the-customer-dashboard](/[airbnb_dataset_analysis_project.md](https://public.tableau.com/views/follow-the-customer-project/Dashboard_global?:language=fr-FR&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+
+<img src="images/dashboard_1.jpg?raw=true"/> 
+
+<img src="images/dashboard_2.jpg?raw=true"/> 
 
 ___ 
 ##  Some recommendations
-- Hosts who have faster response times are likely to have better reviews. These hosts should receive bonuses when they manage to answer quickly (within an hour or a few hours tops)
-- Hosts who do not change their prices during peak periods or when demand rises are missing out opportunities. It could be intereseting to implement an AI which will help the host adjusting thier rates according to the market dynamic.
-  
+- The business should start a reservation system to better follow clients between their establishments
+- Since there is an actual flux between the establisments, it could be interesting to set a fidelity program since clients seem to comeback at least 2 times over 4 months.  
