@@ -1,6 +1,6 @@
 ##  AirBnb dataset analysis 🏡
 
-  <img src="images/airbnb_dataset_analysis_image_reduced.png?raw=true"/>
+  <img src="images/airbnb_dataset_analysis_image_reduced.jpg?raw=true"/>
   
 **Project description:** 
 <br> The objective will be to load the data, clean and format it, before exploring and analyzing it.</br>
