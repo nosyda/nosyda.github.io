@@ -12,10 +12,10 @@ ___
 ### Data description 
 These data have been anonymized for confidentiality reasons. 
 However, the purpose of this analysis has been asked by a real business.
-The biggest challenge was to find a way to regerate a key in order to create a unique ID to establish the clientele flux. 
+<br> The biggest challenge was to find a way to generate a key in order to create a unique ID to establish the clientele flux. 
 
 Detailed tables description: 
-7 excel tables (csv) gathering information such as: 
+<br> 7 excel tables (csv) gathering information such as: 
 - Monthly transactions regarding the business activity by establishments (October til January),
 - e-mail listings
   
@@ -171,7 +171,7 @@ Round((count(distinct id) / count(id)),2) as recurrence_rate,
 FROM `project`
 ```
 Results : reccurence_rate = 0.43; we identified 43% of reccurent clients all establishments combined. 
-NB: the reccurence rate between "La Terrasse ensoleillée" and "L'épicumiam" was 0.6. 
+<br> NB: the reccurence rate between "La Terrasse ensoleillée" and "L'épicumiam" was 0.6. 
 
 Once all the general cleaning was done, python was used to generate the flux
 
@@ -216,4 +216,4 @@ Here is the dashboard created with the data.
 ___ 
 ##  Some recommendations
 - The business should start a reservation system to better follow clients between their establishments
-- Since there is an actual flux between the establisments, it could be interesting to set a fidelity program since clients seem to comeback at least 2 times over 4 months.  
+- Since there is an actual flux between the establishments, it could be interesting to set a fidelity program since clients seem to comeback at least 2 times over 4 months.  
