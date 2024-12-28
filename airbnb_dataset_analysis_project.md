@@ -25,10 +25,10 @@ ___
 - *available*: availability/unavailability of the accommodation
 - *price*: price according to the day
 
-<br><b> listing</b> : Table with an overview of the accomodations.</br>
+<br><b> listing</b> : Table with an overview of the accomodations.
 - *id* : Airbnb's unique identifier for the listing (accomodation)
 - *host_response_time* : The average response time of the host for this accommodation
-- *room_type* : Entire home/apt | Private room | Shared room
+- *room_type* : Entire home/apt or Private room or Shared room
 - *review_scores_value* : The average reviews score that the listing has
 
 ___
