@@ -3,6 +3,5 @@ logo: "/images/image.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Welcome to my portfolio where I share my projects!
   <br><br>
-  <a href="https://www.linkedin.com/in/adyson-mombaka/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
