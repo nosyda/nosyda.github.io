@@ -150,7 +150,8 @@ px.histogram(x = acc_room_type.index,
              labels = {"x" : "Room_type", "y" : "Total number of accomodation"},
              title = "Total accomodations by room_type")
 ```
-<img src="images/accomodation_roomtype.png?raw=true"/>
+ <img src="images/accomodation_roomtype.png?raw=true"/>
+
 Between the Sep 9, 2022 and Jan 31, 2023 almost 90% of the accomodations available on the market were entire home/appartments. 
 ```
 
