@@ -1,7 +1,10 @@
-title: Adyson Mombaka # your name (or website title) here
+title: <p align="center"> Adyson MOMBAKA </p>  # your name (or website title) here
 logo: "/images/image.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Welcome to my portfolio where I share my projects!
   <br><br>
-  
+  <p align="center"> 
+  Tableau │ SQL │ Excel │ Python │ 
+  </p>
+  <br>
 theme: jekyll-theme-minimal
