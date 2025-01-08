@@ -3,8 +3,10 @@ logo: "/images/image.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Welcome to my portfolio where I share my projects!
   <br><br>
+  <br>
+  Data Analyst
   <p align="center"> 
-  Tableau │ SQL │ Excel │ Python │ 
+  SQL │ Python │ Tableau │ Excel
   </p>
   <br>
 theme: jekyll-theme-minimal
